@@ -27,6 +27,11 @@ public:
 		cin >> sks;
 		cout << "Masukan NIM : ";
 	}
+	void tampil() {
+		cout << "\nKode Matakuliah : " << kode;
+		cout << "\nNama Matakuliah : " << namaM;
+		cout << "SKS : " << sks;
+	}
 };
 
 int main()
